@@ -5,7 +5,7 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
   def setup
     @base_title = "Ruby on Rails Tutorial Sample App"
   end
-
+# テスト内容
   test "should get root" do
     get root_url
     assert_response :success
